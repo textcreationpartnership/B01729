@@ -1,0 +1,778 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bothwell lines</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1679</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 17 KB of XML-encoded text transcribed from 12 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2013-12">2013-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">B01729</idno>
+            <idno type="STC">Wing B3805B</idno>
+            <idno type="STC">ESTC R175565</idno>
+            <idno type="EEBO-CITATION">51784403</idno>
+            <idno type="OCLC">ocm 51784403</idno>
+            <idno type="VID">174825</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. B01729)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 174825)</note>
+            <note>Images scanned from microfilm: (Early English Books, 1641-1700 ; 2701:8)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Bothwell lines</title>
+               </titleStmt>
+               <extent>16 p.   </extent>
+               <publicationStmt>
+                  <publisher>s.n.,</publisher>
+                  <pubPlace>[Scotland?:</pubPlace>
+                  <date>1679?]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Place and date of publication taken from National Library of Scotland.</note>
+                  <note>Verses, probably printed in Scotland, relating to the defeat of the Cameronian covenating forces at the battle of Bothwell Bridge in July 1679.</note>
+                  <note>Caption title.</note>
+                  <note>Irregular pagination: [1], 6, 7, 4, 5, 2, 3, 8, 9, 14, 15, 12, 13, 10, 11, 16.  Pagination corresponds to appropriate part of text, but the text is printed out of order.</note>
+                  <note>Reproduction of original in: National Library of Scotland.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Bothwell Bridge, Battle of, 1679 --  Poetry --  Early works to 1800.</term>
+               <term>Church and state --  Scotland --  17th century --  Poetry --  Early works to 1800.</term>
+               <term>Persecution --  Scotland --  Poetry --  Early works to 1800.</term>
+               <term>Suffering --  Religious aspects --  Poetry --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-06</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-07</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-09</date>
+            <label>Mona Logarbo</label>Sampled and proofread</change>
+         <change>
+            <date>2012-09</date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2013-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="poem">
+            <pb facs="tcp:174825:1"/>
+            <pb facs="tcp:174825:1"/>
+            <pb facs="tcp:174825:2"/>
+            <pb facs="tcp:174825:2" rendition="simple:additions"/>
+            <head>Bothwell Lines.</head>
+            <lg>
+               <head>1</head>
+               <l>O Woe be unto Prelacie,</l>
+               <l>That ever it did ſtand,</l>
+               <l>And woe be to your new made Laws,</l>
+               <l>but and your curſed Bands.</l>
+            </lg>
+            <lg>
+               <head>2</head>
+               <l>And woe be to you Prelates all</l>
+               <l>if you do not repent,</l>
+               <l>For ye have baniſhed Chriſt away</l>
+               <l>and broken his Covenant</l>
+            </lg>
+            <lg>
+               <head>3</head>
+               <l>You Prelates ay when that you look</l>
+               <l>you do miſtake the Figure,</l>
+               <l>You think it ſervice good enough</l>
+               <l>to preſs the Poor with Rigour.</l>
+            </lg>
+            <lg>
+               <head>4</head>
+               <l>Our whoriſh Council apoſtates</l>
+               <l>hath made a foul Defection,</l>
+               <l>For they have ſhed the righteous Blood</l>
+               <l>ſince Prelats their Election.</l>
+            </lg>
+            <lg>
+               <head>5</head>
+               <l>Our Teachers they have baniſhed,</l>
+               <l>from City and from Town,</l>
+               <l>And raiſed up a perjur'd pack</l>
+               <l>to trade the Goſpel down.</l>
+            </lg>
+            <lg>
+               <pb n="2" facs="tcp:174825:3"/>
+               <head>6</head>
+               <l>When they appear at the latter day</l>
+               <l>their Tales will have no bearing,</l>
+               <l>I hope its be their hinder end,</l>
+               <l>their Covenants Menſwearing.</l>
+            </lg>
+            <lg>
+               <head>7</head>
+               <l>When we drew up into the Weſt</l>
+               <l>againſt thoſe Inſurrections,</l>
+               <l>At <hi>Pentlandhills</hi> there we did fight,</l>
+               <l>to Witneſs againſt Defections.</l>
+            </lg>
+            <lg>
+               <head>8</head>
+               <l>They burried Chriſt at <hi>Pentlandhills,</hi>
+               </l>
+               <l>that day at <hi>Rullein</hi> green,</l>
+               <l>But yet the Lord will riſe again,</l>
+               <l>and reign in <hi>Zion</hi> King.</l>
+            </lg>
+            <lg>
+               <head>9</head>
+               <l>For there a King in Zion was,</l>
+               <l>when Man that there was none,</l>
+               <l>And there ſhall be a King in it,</l>
+               <l>when this King ſhall be gone.</l>
+            </lg>
+            <lg>
+               <head>10</head>
+               <l>When this was done they did us turn</l>
+               <l>back into <hi>Edinourgh</hi> Town,</l>
+               <l>Our curſed Council did command</l>
+               <l>to put the Priſoners down.</l>
+            </lg>
+            <lg>
+               <pb n="3" facs="tcp:174825:3"/>
+               <head>11</head>
+               <l>Both Heads and Hands they did ſtick up</l>
+               <l>in every publick Town,</l>
+               <l>The reaſon was we would not yeild</l>
+               <l>to every Biſhop Lown.</l>
+            </lg>
+            <lg>
+               <head>12</head>
+               <l>But evermore the Martyers Blood</l>
+               <l>the Churches ſeed doth prove,</l>
+               <l>But and the Church found on a Rock</l>
+               <l>nothing ſhall her remove,</l>
+            </lg>
+            <lg>
+               <head>13</head>
+               <l>For in that time the ſeed was ſown</l>
+               <l>that ever ſince hath grown,</l>
+               <l>That all the powers of Prelacie</l>
+               <l>ſhall never get overthrown.</l>
+            </lg>
+            <lg>
+               <head>14</head>
+               <l>Our whoriſh Council did deviſe,</l>
+               <l>an other evil Deſign,</l>
+               <l>An helliſh band they did contrive,</l>
+               <l>which was a deviliſh thing.</l>
+            </lg>
+            <lg>
+               <head>15</head>
+               <l>And for to bring this thing about,</l>
+               <l>ſome Lords out of the North,</l>
+               <l>Came with a drift of <hi>Amorites,</hi>
+               </l>
+               <l>out ov'r the Water of <hi>Forth.</hi>
+               </l>
+            </lg>
+            <lg>
+               <pb n="4" facs="tcp:174825:4"/>
+               <head>16</head>
+               <l>And for this End they did draw up,</l>
+               <l>their whole miſchievous Troups,</l>
+               <l>And brought them in be <hi>Lenrick</hi> Town,</l>
+               <l>to ſearch the Land throughout.</l>
+            </lg>
+            <lg>
+               <head>17</head>
+               <l>And killed all that they did find,</l>
+               <l>the Goſpel that did preach;</l>
+               <l>And made a final End of all,</l>
+               <l>that would not ſerve the Beaſt.</l>
+            </lg>
+            <lg>
+               <head>18</head>
+               <l>And then they came to ſuch a Height,</l>
+               <l>to perſecut the Band,</l>
+               <l>And never to hear the Goſpel preach'd</l>
+               <l>almoſt into this Land.</l>
+            </lg>
+            <lg>
+               <head>19</head>
+               <l>And now they are not ſettled yet,</l>
+               <l>for all the Wrongs they did,</l>
+               <l>They think for to diſthrone our King,</l>
+               <l>the Crown take off his Head.</l>
+            </lg>
+            <lg>
+               <head>20</head>
+               <l>It would take up now too much Time,</l>
+               <l>to ſet down all Things here,</l>
+               <l>How Prelates have us pereſcute</l>
+               <l>this more than Twenty Year.</l>
+            </lg>
+            <lg>
+               <pb n="5" facs="tcp:174825:4"/>
+               <head>21</head>
+               <l>But now to crown all their Miſchief</l>
+               <l>which they have further done,</l>
+               <l>They think to make an end and lay</l>
+               <l>on him a Burial ſtone.</l>
+            </lg>
+            <lg>
+               <head>22</head>
+               <l>They did diſcharge us for to hear</l>
+               <l>his honeſt Servanes Preach,</l>
+               <l>And threatened Death unto all thoſe</l>
+               <l>the Goſpel that did teach.</l>
+            </lg>
+            <lg>
+               <head>23</head>
+               <l>They were ſo mad againſt the Truth</l>
+               <l>that they would give no bield,</l>
+               <l>To Christ nor to his followers</l>
+               <l>in City nor in Field.</l>
+            </lg>
+            <lg>
+               <head>24</head>
+               <l>Theſe perjured Troups did ſtill go on</l>
+               <l>in bloodie Cruelty,</l>
+               <l>And took our Friends at <hi>Glaſgow</hi> Town</l>
+               <l>to ſend beyond the Sea.</l>
+            </lg>
+            <lg>
+               <head>25</head>
+               <l>When we drew up into the <hi>Weſt</hi>
+               </l>
+               <l>our deareſt blood to ſpill,</l>
+               <l>And for our Covenants we fought</l>
+               <l>that day at <hi>Lowdin-hill.</hi>
+               </l>
+            </lg>
+            <lg>
+               <pb n="6" facs="tcp:174825:5"/>
+               <head>26</head>
+               <l>Although that <hi>Clevers</hi> ſhould go mad</l>
+               <l>and all his Men had ſworn,</l>
+               <l>The Lord did order us and he,</l>
+               <l>our Foes then back did turn.</l>
+            </lg>
+            <lg>
+               <head>27</head>
+               <l>We were aſſembled for to hear</l>
+               <l>the joyfull ſound I ſay,</l>
+               <l>But we were ne're amind to fight,</l>
+               <l>upon a Sabbath-day.</l>
+            </lg>
+            <lg>
+               <head>28</head>
+               <l>This <hi>Clavers</hi> now of whom I ſpeak,</l>
+               <l>a Tirent ſtout was he,</l>
+               <l>A ſudden deed him overtake,</l>
+               <l>for he began the Plea.</l>
+            </lg>
+            <lg>
+               <head>29</head>
+               <l>He came full far to ſeek a Plea,</l>
+               <l>he met with one that day,</l>
+               <l>His Men were killed in open Field,</l>
+               <l>himſelf wan ill away.</l>
+            </lg>
+            <lg>
+               <head>30</head>
+               <l>He ran a long way on his Foot,</l>
+               <l>his Horſe did him forlorn,</l>
+               <l>Diſmounted was his Trumpeter</l>
+               <l>that blew the braſen horn.</l>
+            </lg>
+            <lg>
+               <pb n="7" facs="tcp:174825:5"/>
+               <head>31</head>
+               <l>And then they fled to <hi>Glaſgow</hi> Town,</l>
+               <l>with many wounds and Pricks</l>
+               <l>They made a Trench about the Croſs</l>
+               <l>with many Boards and Sticks.</l>
+            </lg>
+            <lg>
+               <head>32</head>
+               <l>When we had gathered our Priſoners</l>
+               <l>was left in <hi>Evendail.</hi>
+               </l>
+               <l>Then we perſued to <hi>Glaſgow</hi>-town</l>
+               <l>the morn, yea without fail.</l>
+            </lg>
+            <lg>
+               <head>33</head>
+               <l>We entered into <hi>Gloſgow</hi> town</l>
+               <l>at all the enteries four,</l>
+               <l>The timber Trenches was ſo hie</l>
+               <l>that we could not win ov'r.</l>
+            </lg>
+            <lg>
+               <head>34</head>
+               <l>But yet we put them in a fear</l>
+               <l>and then returned again,</l>
+               <l>Unto the gliming ſtreams of <hi>Clyde,</hi>
+               </l>
+               <l>and Camped on the Plain.</l>
+            </lg>
+            <lg>
+               <head>35</head>
+               <l>Upon the blooming Braes of <hi>Clyde</hi>
+               </l>
+               <l>we laid our Ligour down,</l>
+               <l>Our Friends reſorted unto us</l>
+               <l>from City and from Town.</l>
+            </lg>
+            <lg>
+               <pb n="8" facs="tcp:174825:6"/>
+               <head>26</head>
+               <l>For to defend in our Gods Name,</l>
+               <l>the Goſpe<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> in our Land,</l>
+               <l>The which we ſolemnly had ſworn,</l>
+               <l>yea with uplifted Hand.</l>
+            </lg>
+            <lg>
+               <head>37</head>
+               <l>We were ingaged in Covenant</l>
+               <l>Chriſt and his Cauſe to win,</l>
+               <l>And for to bring the baniſhed home,</l>
+               <l>and ding the Prelates down.</l>
+            </lg>
+            <lg>
+               <head>38</head>
+               <l>For we had rather loſs our Lives</l>
+               <l>and dy in open Field,</l>
+               <l>Before we would perjure our ſevles,</l>
+               <l>to Prelacie to yeild.</l>
+            </lg>
+            <lg>
+               <head>39</head>
+               <l>For they did ly at <hi>Glaſgow</hi>-town</l>
+               <l>and we in open Field,</l>
+               <l>Untill the time they fled away</l>
+               <l>to <hi>Stirling</hi> to get bield.</l>
+            </lg>
+            <lg>
+               <head>40</head>
+               <l>They marched eaſt throw <hi>Lithgow</hi>-town</l>
+               <l>for to inlarge their Forces,</l>
+               <l>And ſent for all the <hi>North</hi>-Country,</l>
+               <l>to come both Foot and Horſes.</l>
+            </lg>
+            <lg>
+               <pb n="9" facs="tcp:174825:6"/>
+               <head>41</head>
+               <l>
+                  <hi>Montroſe</hi> did come and <hi>Athole</hi> both,</l>
+               <l>and with them many more,</l>
+               <l>And all the <hi>Highland Amorites,</hi>
+               </l>
+               <l>that had been there before.</l>
+            </lg>
+            <lg>
+               <head>42</head>
+               <l>The <hi>Lowdien-Malliſha</hi> they</l>
+               <l>came with their Coats of Blew,</l>
+               <l>Five hundred Men from <hi>London</hi> came</l>
+               <l>claid in a reddiſh hew.</l>
+            </lg>
+            <lg>
+               <head>43</head>
+               <l>When they were aſſembled one and all</l>
+               <l>a full Bragade were they.</l>
+               <l>Like to a pack of helliſh hounds,</l>
+               <l>roreing after their prey.</l>
+            </lg>
+            <lg>
+               <head>44</head>
+               <l>When they were all provided well,</l>
+               <l>in Armour and Amonition</l>
+               <l>Then thither weſter did they come</l>
+               <l>moſt cruel of Intention.</l>
+            </lg>
+            <lg>
+               <head>45</head>
+               <l>When they came in by <hi>Blackburn</hi> Town,</l>
+               <l>and there lay down to reſt them;</l>
+               <l>And then to plunder they began</l>
+               <l>of all they had they reft them.</l>
+            </lg>
+            <lg>
+               <pb n="10" facs="tcp:174825:7"/>
+               <head>46</head>
+               <l>When they came in by the <hi>Whitebu<gap reason="illegible" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>
+                  </hi>
+               </l>
+               <l>and be <hi>Pockemet</hi> Town:</l>
+               <l>Upon the hight of the Moorhead</l>
+               <l>they laid their Ligour down.</l>
+            </lg>
+            <lg>
+               <head>47</head>
+               <l>And there they lay until the time</l>
+               <l>that Ordinance was ready;</l>
+               <l>Both Knight and Knave and Muſquiti<gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>
+               </l>
+               <l>muſt have a Ligour Lady.</l>
+            </lg>
+            <lg>
+               <head>48</head>
+               <l>Then <hi>Monmouth</hi> down from <hi>Lond<gap reason="illegible" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>
+                  </hi> cam<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </l>
+               <l>for to govern the Battle,</l>
+               <l>On Saturday late they took the Gate:</l>
+               <l>with many Droves of Cattle.</l>
+            </lg>
+            <lg>
+               <head>49</head>
+               <l>They marched Cloſly in the Night,</l>
+               <l>and had their Soldiers ranked</l>
+               <l>I trow their talls they were right bra<gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>
+               </l>
+               <l>with bulls and open ſanked.</l>
+            </lg>
+            <lg>
+               <head>50</head>
+               <l>They marched cloſs by Tuck of Dru<gap reason="illegible" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>
+               </l>
+               <l>in that moſt worldly Gaiſe;</l>
+               <l>And then drew near to <hi>Bothwell</hi> Tow<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </l>
+               <l>while as the Sun did raiſe.</l>
+            </lg>
+            <lg>
+               <pb n="11" facs="tcp:174825:7"/>
+               <head>51</head>
+               <l>When as we ſaw them firſt appear</l>
+               <l>and for the Battle dreſt,</l>
+               <l>To keep the Entries of the Bridge:</l>
+               <l>we thought it was the beſt.</l>
+            </lg>
+            <lg>
+               <head>52</head>
+               <l>Some Men were ſet to keep the Bridge,</l>
+               <l>who plaid their part full well;</l>
+               <l>While Amonition did remain</l>
+               <l>they made their foes to reel:</l>
+            </lg>
+            <lg>
+               <head>53</head>
+               <l>When the Enemies came near the Bridge,</l>
+               <l>into their full bragades</l>
+               <l>Stilling their Cannons us before,</l>
+               <l>Diſcharging at our Lads.</l>
+            </lg>
+            <lg>
+               <head>54</head>
+               <l>And then the Battle it did Join,</l>
+               <l>each one did charge the other:</l>
+               <l>The longeſt Gun a vollie gave,</l>
+               <l>aloud like Muſket ſmother.</l>
+            </lg>
+            <lg>
+               <head>55</head>
+               <l>It would have made a Coward fear'd</l>
+               <l>to hear ſuch Cracks of war</l>
+               <l>For many Sadles were made toom,</l>
+               <l>the ſhooting was ſo ſore.</l>
+            </lg>
+            <lg>
+               <pb n="12" facs="tcp:174825:8"/>
+               <head>56</head>
+               <l>And many Grooms were in a gaſt,</l>
+               <l>that were ſtout Men before:</l>
+               <l>This was a day of ſad reproach,</l>
+               <l>and of Great Lamentation.</l>
+            </lg>
+            <lg>
+               <head>57</head>
+               <l>The Laws of God, were broken down</l>
+               <l>the Glory of our Nation;</l>
+               <l>Then Mr. <hi>Hamilton</hi> did Command</l>
+               <l>ſome ſays he was to blame.</l>
+            </lg>
+            <lg>
+               <head>58</head>
+               <l>Becauſe he was not Valiant,</l>
+               <l>in battle for Gods Name;</l>
+               <l>But whether Guilt or Ignorance</l>
+               <l>God knoweth and himſell.</l>
+            </lg>
+            <lg>
+               <head>59</head>
+               <l>For whether of the two it was</l>
+               <l>my Author does not tell;</l>
+               <l>The Men who at the Bridge did ſtan<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </l>
+               <l>did Amonition laike.</l>
+            </lg>
+            <lg>
+               <head>60</head>
+               <l>And no relief at all they got;</l>
+               <l>and ſo they did draw back</l>
+               <l>The Horſe Men they did flee away</l>
+               <l>and left the Foot behind.</l>
+            </lg>
+            <lg>
+               <pb n="13" facs="tcp:174825:8"/>
+               <head>61</head>
+               <l>
+                  <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>he enemie did ſeize on them,</l>
+               <l>for all the reſt were gone:</l>
+               <l>
+                  <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>hen the Enemy had won the Bridge</l>
+               <l>the weſtland Men did flee.</l>
+               <l>
+                  <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>he <hi>Engliſhmen</hi> and <hi>Clavers</hi> both</l>
+               <l>did kill them Grievouſlie:</l>
+               <l>
+                  <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nd all along throw Hamilton Town</l>
+               <l>they did both kill and wound.</l>
+            </lg>
+            <lg>
+               <head>62</head>
+               <l>
+                  <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ntil the Streets with Bodies Dead,</l>
+               <l>was Covered in the Town</l>
+               <l>
+                  <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ome were dead and ſome were ſick,</l>
+               <l>and ſome were ſorely wounded.</l>
+               <l>
+                  <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>hey drove them Eaſt like unto ſheep,</l>
+               <l>before the Dogs were hounded.</l>
+               <l>
+                  <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>hen ſome were dead &amp; ſome were ſick,</l>
+               <l>and ſome for Quarters Cryed.</l>
+            </lg>
+            <lg>
+               <head>63</head>
+               <l>
+                  <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nd many a brave Gallants Blood,</l>
+               <l>upon the Ground there lyed</l>
+               <l>
+                  <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>hey took twelve Hundred Priſoners:</l>
+               <l>when fighting it was done.</l>
+               <l>
+                  <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nd on the morn when it was Day</l>
+               <l>
+                  <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>hey gathered all right ſoon</l>
+               <l>
+                  <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>hey drove them to the Gray friers Yeard</l>
+               <l>and there they were Incloſed.</l>
+            </lg>
+            <lg>
+               <pb n="14" facs="tcp:174825:9"/>
+               <head>64</head>
+               <l>It would have made an whole Heart ſore</l>
+               <l>to ſee them ſo abuſed;</l>
+               <l>And there they lay for many a day,</l>
+               <l>Starving for Hunger and Cold.</l>
+               <l>Our Curſed Council did command</l>
+               <l>they over the Seas were ſold;</l>
+               <l>Then Arazion did undertake,</l>
+               <l>to go to new plantations.</l>
+            </lg>
+            <lg>
+               <head>65</head>
+               <l>And to remove them far away,</l>
+               <l>one of their Native Nations;</l>
+               <l>But Judgment ſhall him overtake</l>
+               <l>either here or hereafter.</l>
+               <l>When Lords of Council ſhalt not then</l>
+               <l>be able him to ſhelter,</l>
+            </lg>
+            <lg>
+               <head>66</head>
+               <l>They did not ſend them to the Sea,</l>
+               <l>not only for their Lives</l>
+               <l>For two they hang'd in <hi>Edinburgh</hi> town</l>
+               <l>and five of them in <hi>Fife.</hi>
+               </l>
+               <l>For ſuch a helliſh pack as they</l>
+               <l>I think ſhall never renown;</l>
+               <l>That ſent the wounded Priſoners,</l>
+               <l>into the Sea to drown.</l>
+            </lg>
+            <lg>
+               <pb n="15" facs="tcp:174825:9"/>
+               <head>67</head>
+               <l>
+                  <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>or of two hundred Priſoners,</l>
+               <l>that to the Sea did go,</l>
+               <l>Was never Man returned at all</l>
+               <l>but only fiftie two.</l>
+               <l>And now they are not ſettled yet,</l>
+               <l>though they be Inbrewed in Blood;</l>
+               <l>They are begun a new again</l>
+               <l>to prſecute moſt rude.</l>
+            </lg>
+            <lg>
+               <head>68</head>
+               <l>With Fining and with Roberie,</l>
+               <l>the Poor they did oppreſs,</l>
+               <l>And all that on Gods Name do Call,</l>
+               <l>either in more or leſs.</l>
+               <l>When they ſend out their helliſh hounds</l>
+               <l>an Inventer to take.</l>
+               <l>Although the Man be never ſo poor,</l>
+               <l>the fyne they will not lake.</l>
+            </lg>
+            <lg>
+               <head>69</head>
+               <l>They call us rebels to the King,</l>
+               <l>and traitors to the Crown:</l>
+               <l>Becauſe we'll not Menſwear our ſelves</l>
+               <l>for every Biſhop Lown.</l>
+               <l>But we will not acknowledge them,</l>
+               <l>nor own them as our head,</l>
+               <l>Nor will embrace no mortal Man,</l>
+               <l>into our Maſters ſtead.</l>
+            </lg>
+            <lg>
+               <pb n="16" facs="tcp:174825:10"/>
+               <head>70</head>
+               <l>We ſhall prove Loyal to the King,</l>
+               <l>throw City and throw Town,</l>
+               <l>If they will place our Miniſters,</l>
+               <l>and ding the Biſhops down</l>
+               <l>The Biſhops they are hie in power,</l>
+               <l>and ſets themſelves as Lords,</l>
+               <l>But when the wheel of fortune turns,</l>
+               <l>beware of ſharp rewards.</l>
+            </lg>
+            <lg>
+               <head>71</head>
+               <l>The Biſhops they betrayed the Church</l>
+               <l>of God within this Land:</l>
+               <l>And they have ſet themſelves as heads,</l>
+               <l>above the Church to ſtand,</l>
+               <l>But yet I hope to ſee the day,</l>
+               <l>when he will it recal.</l>
+               <l>And bring us back from <hi>Babylon,</hi>
+               </l>
+               <l>in ſpite of Prelates all.</l>
+            </lg>
+            <lg>
+               <head>72</head>
+               <l>The Prelates they are but baſtard weeds</l>
+               <l>and wounde<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> at the root,</l>
+               <l>There's nothing grows on them but</l>
+               <l>or then ſome withered fruit.</l>
+               <l>But when the Maſter Gardiner comes leaves</l>
+               <l>and ſees how blait they are like,</l>
+               <l>He'l neither dig nor delve no more</l>
+               <l>but caſt them ov'r the Dyke.</l>
+            </lg>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:174825:10"/>
+            <pb facs="tcp:174825:11"/>
+            <pb facs="tcp:174825:11"/>
+            <pb facs="tcp:174825:12"/>
+            <pb facs="tcp:174825:12" rendition="simple:additions"/>
+         </div>
+      </body>
+   </text>
+</TEI>
